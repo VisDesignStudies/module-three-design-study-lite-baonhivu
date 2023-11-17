@@ -1,5 +1,7 @@
 # Module Three Data Study Lite
 
+### By Bao-Nhi Vu and Lama Abed
+
 ## Overview
 Design studies are intensive, longitudinal, collaborative design activities. While they're a powerful tool in your visualization development toolkit, they also take a bit more energy than is reasonable for a module-sized assignment :-) To get you some practice with the design study methodology, you'll conduct a miniature design study with yourselves as both the designer and stakeholder. Your goal will be to design a visualization tool to support the following scenario: 
 
