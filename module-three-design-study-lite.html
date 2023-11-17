@@ -2,27 +2,65 @@
 <meta charset="utf-8">
 
 <script src="https://d3js.org/d3.v6.js"></script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mandaic&display=swap" rel="stylesheet">
 <html>
     <body>
-        <link rel="stylesheet" href="module-2-data-stories.css">
+        <link rel="stylesheet" href="/module-three-design-study-lite.css">
         <title>
             Energy Consumption
         </title>
         
-        <p class="header">
+        <!-- <p class="header">
             Module Three: Data Study Lite
-        </p>
+        </p> -->
+        <div class="header">
+            <div class="title">
+                Commercial Energy Consumption by State
+            </div>
+        </div>
 
-        <p class="title">
-            Commercial Energy Consumption by State
-        </p>
+
+        <div class="container">
+            <div class="instructions">
+                <h2>Instructions on Use</h2>
+                <hr>
+                <h4>
+                    To use this visualization, select one of the states on the right; each circle represents a state.
+                </h4>
+                <h4>
+                    Within each circle, you can hover over to see the timeline changes. Each line within the circle represents a year, and you will be able to discover the progression of energy consumption as you hover from the center of the circle to the outermost line.
+                </h4>
+                <h4>
+                    As you continue to hover over the circles, you will see new adaptations of energy consumption.
+                </h4>
+                
+
+            </div>
+            <div class="chart" id="chart1">
+           
+            </div>
+            <div class="instructions">
+                <h2>Info Guide</h2>
+                <hr>
+                <h4>
+                    It is important to know the type of energy we are looking at specifically when we want to analyzie renewable energy consumption pattern adaptations within comersial concumption.
+                </h4>
+                <h4>
+                    Example on renewable energy sources: Hydropower, Solar, Wind.
+                </h4>
+                <h4>
+                    Example on non-renewable energy sources: Coal, Distilled fuel oil, Geothermal, Kerosene, Petroleum, Natural Gas, Wood.
+                </h4>
+                
+
+            </div>
+        </div>
 
         <p class="credits">
             By Bao-Nhi Vu and Lama Abed.
         </p>
-        <div class="chart" id="chart1"></div>
-
         <style>
             .circle:hover{
             stroke: black;
@@ -38,7 +76,7 @@
             }
         </style>
 
-        <div class="chart" id="chart2"></div>
+        <!-- <div class="chart" id="chart2"></div> -->
 
     </body>
 </html>
@@ -46,7 +84,7 @@
 
 <script>
     // Chart 2
-    var width1 = 2200;
+    var width1 = 1050;
     var height1 = 800;
 
     var svg1 = d3.select("#chart1")
@@ -55,7 +93,7 @@
         .attr("height", height1);
 
     var projection = d3.geoMercator()
-        .center([-100, 50])
+        .center([-120, 50])
         .scale(500)
         .translate([width1/2, height1/2]);
 
