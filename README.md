@@ -10,9 +10,13 @@ The US Department of Energy is conducting a review of historical data to try to 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/On0xL5EX)
 
 
+## Video Submition 
+[presentation video](https://youtu.be/g2UhvD8T4Xs)
+
 ## Serving the Project
 
 This piece is an independent webpage served through a local host. Download the HTML and CSS file and run the command: python -m http.server to serve the page. Open the link http://[::]:8000/ and navigate to the HTML file to read the webpage.
+or you can access the deployed link [here](https://visdesignstudies.github.io/module-three-design-study-lite-baonhivu/) 
 
 ## Design Study Process
 _Learning:_ The US Department of Energy is conducting a review of historical data to try to inform next-generation energy policies. As a result, our team has been hired to design a visualization tool to explore the data they provided to give light to past patterns in the energy sector in addition to generating data-driven policy recommendations. The goal of the visualization is to act as a tool for policymakers to use as a resource for communication and presentation. The specific target problem that we will focus on is renewable energy adoption patterns and policies at the state level and see what kind of impact that would lead to. It is important because seeing the impact of adapting renewable energy adoption can steer the new generation of consumers into using these resources. When people see how things are changing for the better, adapting renewable energy would gain popularity and would lead to more of a positive impact on the energy industry as a whole. Additionally, promoting the adoption of renewable energy would have a positive impact on the environment by reducing air pollution. The benefit for the economy is that with more instances of renewable energy, the US will be less dependent on imports from other countries and will become more self-sufficient.
